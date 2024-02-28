@@ -1,0 +1,7 @@
+{
+    "helloText": "HELLO TEXT",
+    "@helloWorld": {
+        "helloText": "The conventional newborn programmer greeting"
+      },
+    "helloText2": "HELLO TEXT 2"
+}
