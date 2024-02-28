@@ -1,7 +1,5 @@
 {
-    "helloText": "HELLO TEXT",
-    "@helloWorld": {
-        "helloText": "The conventional newborn programmer greeting"
-      },
+    "helloText": "HELLO TEXT THIS IS PACKAGE PAGE",
+    "titleText": "HELLO TEXT THIS IS PACKAGE  Title Text",
     "helloText2": "HELLO TEXT 2"
 }

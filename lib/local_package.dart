@@ -76,6 +76,12 @@ class _SDKPageState extends State<SDKPage> {
               AppLocalizations.of(context)!.helloText,
             ),
             Text(
+              AppLocalizations.of(context)!.titleText,
+            ),
+            Text(
+              AppLocalizations.of(context)!.helloText,
+            ),
+            Text(
               '$_counter',
               style: Theme.of(context).textTheme.headlineMedium,
             ),
