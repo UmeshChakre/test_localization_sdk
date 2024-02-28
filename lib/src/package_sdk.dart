@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:local_package/local_package.dart';
 
 final GlobalKey<NavigatorState> navigatorKey = GlobalKey<NavigatorState>();
 
@@ -73,13 +73,13 @@ class _SDKPageState extends State<SDKPage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
-              AppLocalizations.of(context)!.helloText,
+              AppLocalization.of(context).helloText,
             ),
             Text(
-              AppLocalizations.of(context)!.titleText,
+              AppLocalization.of(context).titleText,
             ),
             Text(
-              AppLocalizations.of(context)!.helloText,
+              AppLocalization.of(context).helloText,
             ),
             Text(
               '$_counter',
