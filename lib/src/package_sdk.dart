@@ -76,7 +76,19 @@ class _SDKPageState extends State<SDKPage> {
               AppLocalization.of(context).helloText,
             ),
             Text(
-              AppLocalization.of(context).titleText,
+              AppLocalization.of(context).helloText2,
+            ),
+            Text(
+              AppLocalization.of(context).pleaseConfirm,
+            ),
+            Text(
+              AppLocalization.of(context).newTransfer,
+            ),
+            Text(
+              AppLocalization.of(context).termsConditions,
+            ),
+            Text(
+              AppLocalization.of(context).termsConditionsUpper,
             ),
             Text(
               AppLocalization.of(context).helloText,
