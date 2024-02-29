@@ -94,6 +94,9 @@ class _SDKPageState extends State<SDKPage> {
               AppLocalization.of(context).helloText,
             ),
             Text(
+              AppLocalization.of(context).sdkOnlyText,
+            ),
+            Text(
               '$_counter',
               style: Theme.of(context).textTheme.headlineMedium,
             ),
